@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/headphones_bg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="50dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headphones_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/control_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/previous_icon"
+            android:contentDescription="Previous" />
+
+        <ImageButton
+            android:id="@+id/btn_play_pause"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/play_icon"
+            android:contentDescription="Play/Pause" />
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/next_icon"
+            android:contentDescription="Next" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_repeat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/repeat_icon"
+        android:contentDescription="Repeat" />
+</RelativeLayout>
