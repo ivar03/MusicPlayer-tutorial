@@ -4,33 +4,33 @@ This guide will walk you through creating a music player app using Android and K
 
 ## Table of Contents
 
-1. [Project Setup]
-   - [Create a New Android Project]
-   - [Add Necessary Dependencies]
-2. [Understanding the Key APIs and Libraries]
-   - [MediaPlayer]
-   - [MediaStore]
-   - [SeekBar]
-   - [Handler]
-   - [SharedPreferences]
-3. [Designing the UI]
-   - [Layout Design (XML)]
-   - [Adding Buttons and SeekBar]
-4. [Implementing Core Features]
-   - [Accessing Music Files]
-   - [Initializing MediaPlayer]
-   - [Implementing Play/Pause Functionality]
-   - [Forward/Backward Functionality]
-   - [Loop/Repeat Functionality]
-   - [Draggable Progress Bar]
-5. [Extra Custom Features]
-   - [Handling Audio Focus]
-   - [Saving User Preferences]
-   - [Customizing UI Elements]
-6. [Final Touches]
-   - [Testing]
-   - [Debugging]
-   - [Packaging and Deployment]
+1. Project Setup
+   - Create a New Android Project
+   - Add Necessary Dependencies
+2. Understanding the Key APIs and Libraries
+   - MediaPlayer
+   - MediaStore
+   - SeekBar
+   - Handler
+   - SharedPreferences
+3. Designing the UI
+   - Layout Design (XML)
+   - Adding Buttons and SeekBar
+4. Implementing Core Features
+   - Accessing Music Files
+   - Initializing MediaPlayer
+   - Implementing Play/Pause Functionality
+   - Forward/Backward Functionality
+   - Loop/Repeat Functionality
+   - Draggable Progress Bar
+5. Extra Custom Features
+   - Handling Audio Focus
+   - Saving User Preferences
+   - Customizing UI Elements
+6. Final Touches
+   - Testing
+   - Debugging
+   - Packaging and Deployment
 
 ## 1. Project Setup
 
