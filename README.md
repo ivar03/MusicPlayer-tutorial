@@ -49,9 +49,9 @@ You might need to add some dependencies for enhanced features or UI components. 
 
 ```gradle
 dependencies {
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'com.google.android.material:material:1.4.0'
+    implementation ("androidx.core:core-ktx:1.7.0")
+    implementation ("androidx.appcompat:appcompat:1.4.0")
+    implementation ("com.google.android.material:material:1.4.0")
     // Additional dependencies for custom features if needed
 }
 ```
